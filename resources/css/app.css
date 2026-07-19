@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.dataTables_wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+table.dataTable {
+    width: 100%;
+}
+
+table.dataTable th, table.dataTable td {
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
